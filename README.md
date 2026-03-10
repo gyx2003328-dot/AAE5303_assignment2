@@ -39,12 +39,12 @@ The leaderboard will parse your JSON file and display rankings **separately for 
 
 All metrics are computed by comparing an **estimated TUM trajectory** against the **provided ground truth**, using a fixed evaluation protocol (alignment + association).
 
-| Metric | Direction | Unit | Description |
-|--------|-----------|------|-------------|
-| **ATE RMSE** | ↓ | m | Global accuracy after Sim(3) alignment + scale correction |
-| **RPE Trans Drift** | ↓ | m/m | Translation drift rate (distance-based RPE, delta = 10 m) |
-| **RPE Rot Drift** | ↓ | deg/100m | Rotation drift rate (distance-based RPE, delta = 10 m) |
-| **Completeness** | ↑ | % | Matched poses / total ground-truth poses |
+| Metric | Direction | Unit | Current Value (Latest Local Run) | Description |
+|--------|-----------|------|----------------------------------|-------------|
+| **ATE RMSE** | ↓ | m | **121.055376** | Global accuracy after Sim(3) alignment + scale correction |
+| **RPE Trans Drift** | ↓ | m/m | **0.34027017** | Translation drift rate (distance-based RPE, delta = 10 m) |
+| **RPE Rot Drift** | ↓ | deg/100m | **93.275173** | Rotation drift rate (distance-based RPE, delta = 10 m) |
+| **Completeness** | ↑ | % | **60.306905370843985** | Matched poses / total ground-truth poses |
 
 ---
 
